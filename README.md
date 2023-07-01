@@ -26,7 +26,7 @@ import (
 func main() {
   // convert markdown to docx
   var inBytes []byte = ...
-  outBytes, err := gopandoc.BytesToBytes(inBytes, "markdown", "docx") ([]byte, error)
+  outBytes, err := gopandoc.BytesToBytes(inBytes, "markdown", "docx")
   if err != nil {
     ...
   }
